@@ -1,0 +1,172 @@
+.home{
+    width: 100%;
+    background-color: var(--bgColor-1);
+    display: flex;
+    flex-direction: column;
+}
+
+.services {
+    background-color: var(--bgColor-1);
+    padding: 2rem var(--padding);
+
+}
+ 
+.text-center {
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 250px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+}
+ .card i {
+    font-size: 3.12rem;
+    text-align: center;
+    color: var(--primaryColor);
+    margin: 2rem;
+
+ }
+/*our ProgrammingLanguages--------------------------------------------------------------------------*/
+ .language{
+    background-color: var(--bgColor-2);
+    padding: 2rem var(--padding);
+    padding-bottom: 100px;
+
+}
+ .language .box2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr) );
+    gap: 15px;
+
+ }
+ .language .box2 .card2{
+    box-shadow: 0 5px 10px var(--bgColor-1);
+    border-radius:5px;
+    background: var(--lightColor);
+    text-align: center;
+    padding: 30px 20px;  
+
+ }
+ .language .box2 .card2 img{
+    height: 80px;
+
+ }
+
+ .language .box2 .card2 h5{
+    color: var(--bgColor-2);
+    font-size: 22px;
+    padding: 10px 0;
+    line-height: 1.8;
+
+ }
+
+ .language .box2 .card2 .btn2{
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    background: var(--primaryColor);
+    color: var(--lightColor);
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;}
+
+    .language .box2 .card2 .btn2:hover{
+        letter-spacing:1px ;
+    }
+    .language .box2 .card2:hover{
+        box-shadow: 0 10px 15px var(--bgColor-2);
+        transform: scale(1.03) ;
+    }
+   
+
+   
+/*our skills------------------------------------------------------------------------------------*/
+ .skills {
+    background-color: var(--bgColor-1);
+    padding: 2rem var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .skills .container-images {
+    width: 60%;
+    margin-top: 10rem;
+}
+.skills .container-images img {
+    width: 90%;
+}
+.skills .content-skills {
+    width: 70%;
+}
+.content-skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+.skill {
+    width: 100px;
+    height: 100px;
+    background-color: var(--lightColor);
+    border-radius: 50%;
+    margin: 0 2rem 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.skill img{
+    width: 70%;
+}
+
+/*our work-----------------------------------------------------------------------------------*/
+
+.work{
+    background-color: var(--bgColor-2);
+    padding: 2rem var(--padding);
+    padding-bottom: 100px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr ));
+    grid-template-areas: 'top top2 top3 top4'
+                          'sac sac2 sac3 sac4'
+                          'the the2 the3 the4'
+                          'bot bot2 bot3 bot4';
+
+}
+.W img{
+    width: 350px;
+    height: 250px;
+}
+.work1{
+    grid-area:top ;
+}
+.work2{
+    grid-area:top3;
+
+}
+.work3{
+    grid-area:sac2;
+}
+.work4{
+    grid-area:sac4;
+}
+.work5{
+    grid-area:the;
+}
+.work6{
+    grid-area:the3;
+}
+.work7{
+    grid-area:bot2;
+
+
+}
+.work8{
+    grid-area:bot4;
+}
